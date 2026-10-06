@@ -72,7 +72,7 @@ jobs:
 
     env:
       AWS_REGION: us-east-1
-      ECR_REPOSITORY: 971054234532.dkr.ecr.us-east-1.amazonaws.com/backend
+      ECR_REPOSITORY: 266767661712.dkr.ecr.us-east-1.amazonaws.com/backend
       IMAGE_TAG: ${{ github.sha }}
 
     defaults:
@@ -108,7 +108,7 @@ jobs:
 
     env:
       AWS_REGION: us-east-1
-      ECR_REPOSITORY: 971054234532.dkr.ecr.us-east-1.amazonaws.com/backend
+      ECR_REPOSITORY: 266767661712.dkr.ecr.us-east-1.amazonaws.com/backend
       IMAGE_TAG: ${{ github.sha }}
       EKS_CLUSTER_NAME: cluster
 
